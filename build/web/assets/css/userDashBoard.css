@@ -1,0 +1,117 @@
+#RoomCarousel_outer
+{
+    padding-top: 40%;
+}
+table, th, td {
+    border: 1px solid black;
+    padding: 5px;
+}
+table {
+    border-spacing: 15px;
+}
+#RoomCarousel
+{
+    position: absolute;
+    width:100%;
+    right:0;
+    left:0;
+}
+.itemPad
+{
+    padding-left:10%;
+    padding-right:10%;
+}
+.mainCarouselImg
+{
+
+}
+
+#myCarousel
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: auto;
+    left: 0;
+}
+#Amensities
+{
+      padding-top:2cm;
+      padding-bottom:2cm;
+}
+#circle {
+  width: 50px;
+  height: 50px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+  background: black;
+}
+.aPad
+{
+    padding-top:10%;
+    padding-left:80px;
+}
+.footer{
+   
+    padding-top:1cm;
+    padding-bottom:1cm;
+    color:white;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    background-color: #000000;
+}/*naV baR pROTION*/
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}    
+    
+
+/* title */
+.navbar-default .navbar-brand {
+    color: #ffffff;
+    text-shadow: 0px 0px 15px #000000;
+
+    font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	font-weight:bold;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #ffffff;
+}
+
+.navbar-default {
+    border-color: transparent;
+    border: none;
+    background: black;      padding:0;
+      margin:0;
+
+}
+/*	Link	*/
+.navbar-default .navbar-nav > li > a,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color:#ffffff;
+
+}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #000000;
+}
